@@ -27,8 +27,8 @@ public class greetTest {
 
    @Test
    public void testsum() {
-      int expected = 4;
-      int actual = gre.sum(2, 2);
+      int expected = 5;
+      int actual = gre.sum(3, 2);
       assertEquals(expected, actual);
    }
 
